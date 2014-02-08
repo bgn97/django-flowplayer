@@ -120,6 +120,7 @@ def do_flowplayer(parser, token):
 
     if len(args) == 4:
         player_id = args[3]
+        player_class = args[2]
     else:
         player_id = None
 
